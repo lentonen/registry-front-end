@@ -1,3 +1,8 @@
+# Registry-front-end
+Simple front-end built with react.
+See live [here](https://xenodochial-kepler-957fa3.netlify.app/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
