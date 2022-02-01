@@ -51,7 +51,6 @@ function App() {
   const addCustomer = (event) => {
     event.preventDefault()
     const customerObj = {...newCustomer, "company": `${companyUrl}`}
-    console.log(customerObj.address)
     if (customerObj.firstName === '' || customerObj.lastName === '' || customerObj.address === '') {           // checking if there is empty fields in customer form
       alert('enter the information in all fields')
     }
