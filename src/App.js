@@ -14,7 +14,7 @@ function App() {
     lastName : "",
     address : ""
   })
-  const companyId = 1  // In the future we could add some way to change company in our website. Change id 1 --> 2 and you can see customers from other company
+  const companyId = 1  // In the future we could add some way to change company in our website. Now you can change this id here for showing customers from other company.
   //const companyUrl = `http://localhost:8080/api/companies/${companyId}`
   const companyUrl = `https://registry-back-end.herokuapp.com/api/companies/${companyId}` 
   
